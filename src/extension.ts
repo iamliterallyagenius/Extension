@@ -16,7 +16,7 @@ export function activate(context: vscode.ExtensionContext) {
 	const disposable = vscode.commands.registerCommand('dbflow.helloWorld', () => {
 		// The code you place here will be executed every time your command is executed
 		// Display a message box to the user
-		vscode.window.showInformationMessage('weeee sel3a');
+		vscode.window.showInformationMessage('tiriwelli');
 	});
 
 	context.subscriptions.push(disposable);
